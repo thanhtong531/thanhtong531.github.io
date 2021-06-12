@@ -24,7 +24,7 @@
                 <h2>VietNam champion</h2>
                 <p>Bạn nghĩ ai sẽ là người ghi bàn tiếp theo khi VietNam gặp UAE 
                 </p>
-                <a href="" class="">Bình chọn ngay</a>
+                <a href="" onclick="vote()" >Bình chọn ngay</a>
             </div>
             <div class="imgBox">
                 <img src="tl.png" alt="" class= "ball">
@@ -40,6 +40,13 @@
     </section>
 
     <script>
+// vote
+
+function vote(){
+    var result = prompt('Bạn chọn ai?');
+    alert('Mình tin bạn chọn '+ result +' sẽ giúp Việt Nam giành thắng lợi 😍');
+}
+
 // change img
 
         function sliderImg(anything){
